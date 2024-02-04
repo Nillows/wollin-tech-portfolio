@@ -1,0 +1,31 @@
+:root {
+    --blood-orange: rgb(151, 49, 49); /* Primary: A warm, inviting orange */
+    --ghost-white: #F8F8FFff; /* Secondary: A very light, almost ethereal white */
+    --lavender-purple: #967BB6ff; /* Highlight: A soft, muted purple */
+    --pure-white: #FFFFFFff; /* Detail: Pure, crisp white */
+    --deep-lavender: #775DAAff; /* Hover: A richer, deeper purple */ 
+}
+
+
+footer {
+    background: var(--blood-orange); /* Warm and inviting orange for a vibrant background */
+    color: var(--ghost-white); /* Ethereal white for readability and contrast */
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 0; /* Adequate padding for visual spacing */
+    font-size: 250%; /* Standard size for readability, adjustable to preference */
+    text-align: center; /* Center alignment for footer content */
+    border-top: 2px solid var(--lavender-purple); /* Subtle purple border for a pop of color */
+}
+
+.social-icon {
+    color: var(--ghost-white); /* Matching the footer text for cohesive design */
+    margin: 0 15px; /* Spacing between icons for a cleaner look */
+}
+
+.social-icon:hover {
+    color: var(--deep-lavender); /* Deeper purple on hover for visual interest */
+    transition: color 0.3s ease; /* Smooth transition for hover effect */
+}
