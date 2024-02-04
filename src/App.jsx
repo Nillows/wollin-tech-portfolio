@@ -21,7 +21,7 @@ function App() {
         imgSrc: CRUDTalkerPicture,
         deployedLink: 'https://crudtalker-a62963a0a4c5.herokuapp.com/',
         heading: 'CRUD-Talker',
-        githubLink: 'https://github.com/Nillows',
+        githubLink: 'https://github.com/Nillows/Project2',
         techs: 'Express, MySQL, Sequelize, Handlebars, Socket.io'
     },
     
@@ -56,7 +56,7 @@ function App() {
     { imgSrc: WeathPicture,
       deployedLink: 'https://nillows.github.io/Module6/',
       heading: 'Weather App',
-      githubLink: 'https://thoms-tech-blog-41eb527963c4.herokuapp.com/',
+      githubLink: 'https://github.com/Nillows/Module6',
       techs: 'HTML, CSS, and Javascript' },
   ];
 
