@@ -1,0 +1,30 @@
+:root {
+    --soft-blue: #5D93BEff; /* Primary: Soft Blue, for a calm and professional look */
+    --slate-gray: #708090ff; /* Secondary: Slate Gray, for neutral accents */
+    --steel-blue: #4682B4ff; /* Highlight: Steel Blue, for a slightly deeper blue accent */
+    --pale-gold: #E6BE8Aff; /* Highlight: Pale Gold, for subtle, sophisticated highlights */
+    --pure-white: #ffffff; /* Detail: Pure White, for clarity and readability */
+    --sky-blue: #87CEEBff; /* Hover: Sky Blue, for a light and engaging hover effect */
+    --grape: #94618e;
+}
+
+header {
+    background: var(--grape); /* Using Soft Blue for the header background */
+    color: var(--pure-white); /* Using Pure White for text, ensuring readability */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 140%;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.1); /* Adding a subtle shadow for depth */
+}
+
+h1 {
+    padding: 20px;
+    padding-right: 60px;
+    width: fit-content;
+    white-space: nowrap;
+}

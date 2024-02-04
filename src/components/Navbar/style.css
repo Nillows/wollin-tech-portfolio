@@ -1,0 +1,30 @@
+:root {
+    --soft-blue: #5D93BEff; /* Primary: Soft Blue, for a calm and professional look */
+    --slate-gray: #708090ff; /* Secondary: Slate Gray, for neutral accents */
+    --steel-blue: #4682B4ff; /* Highlight: Steel Blue, for a slightly deeper blue accent */
+    --rich-purple: #6A0DADff; /* Highlight: Rich Purple, for better contrast */
+    --pure-white: #ffffff; /* Detail: Pure White, for clarity and readability */
+    --sky-blue: #87CEEBff; /* Hover: Sky Blue, for a light and engaging hover effect */
+    --grape: #94618e;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    width: 100%; /* Adjusted to match header width for seamless integration */
+    background-color: var(--grape); /* Using Soft Blue for the nav background */
+    box-shadow: none; /* Removing the shadow for a more seamless transition between the header and nav */
+}
+
+.navbar-link {
+    color: var(--pure-white); /* Keeping Pure White for contrast */
+    text-decoration: none;
+    transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out; /* Smooth transition for hover effect */
+    padding: 10px 15px; /* Padding for better touch target size */
+    border-radius: 5px; /* Soft rounded corners for a modern look */
+}
+
+.navbar-link:hover, .navbar-link.active  {
+    background-color: var(--steel-blue); /* Keeping Sky Blue background on hover */
+    cursor: pointer; /* Ensuring cursor changes to pointer on hover */
+}
